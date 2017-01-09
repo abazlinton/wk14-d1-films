@@ -1,7 +1,6 @@
 var React = require('react');
 var FilmList = require('./FilmList.jsx');
 
-
 var FilmListBox = React.createClass({
 
   render: function(){
