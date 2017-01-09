@@ -2,12 +2,22 @@ body{
   font-family: Verdana;
 }
 
-.counter-box, .comment-box{
+td{
+  width: 240px;
+  text-align: left;
+  margin-left: 30px
+}
+
+/*.film {
+  margin: 0px auto;
+}*/
+
+.counter-box, .film-list-box{
   border: 2px solid mediumaquamarine;
   border-radius: 5px;
   padding: 10px;
   margin: 5px auto;
-  width: 400px;
+  width: 480px;
   font-size: 20px;
   text-align: center;
 }
@@ -24,8 +34,8 @@ button:hover{
   background-color: mediumaquamarine;
 }
 
-.comment{
-  border-bottom: 1px solid mediumaquamarine;
+.film{
+  border-top: 1px solid mediumaquamarine;
   padding: 10px;
 }
 
@@ -53,5 +63,5 @@ button:hover{
 }
 
 .countries-box{
-  
+
 }
